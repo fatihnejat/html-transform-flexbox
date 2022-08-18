@@ -48,23 +48,57 @@
     width: 100px;
     height: 50px;
     margin: 10px;
+    transition: backround-color 1s, transform 1s;
 
 }
 .x:hover {
     transform: translate(50px);
+    background-color: coral;
 
 
 }
-.y:active{
+.y:hover{
     transform: translateY(10px);
+    background-color: gold;
 
 
 }
-.xy:active{
+.xy:hover{
     transform: translate(10px , 10px);
+    background-color: orange;
+}
 
+.buttondiv{
+    text-align: center;
+    
 
 }
 
 
 
+.button{
+    padding: 1rem;
+    width: 7rem;
+    background-color: rgb(224, 213, 93);
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    transition:all 0.5s;
+   
+    
+}
+
+.button:hover{
+    background-color: indianred;
+    color: white;
+}
+
+/* .button{
+    transition: all 0.5s;
+} */
+/* .button:active{
+    transform: scale(0.9);
+    background-color: aqua;
+    color: antiquewhite;
+}
+ */
